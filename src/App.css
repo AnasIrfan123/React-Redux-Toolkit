@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,41 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.container {
+  text-align: center;
+  margin-top: 10em;
 }
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  background-color: rgb(209, 193, 193);
+  margin: 30px 45em;
+  border-radius: 4px;
+}
+
+.quantity_minus,
+.quantity_plus {
+  cursor: pointer;
+  user-select: none;
+  font-size: 2rem;
+  margin: 0 10px;
+}
+
+.quantity_input {
+  text-align: center;
+  width: 50px;
+  font-size: 1.5rem;
+  margin: 0 10px;
+}
+h1, h4{
+  color: gray;
+}
+
+
+
